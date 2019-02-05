@@ -10,24 +10,24 @@ public abstract class Animal {
     public String name = "Alex";
     private int age = 24;
 
-    public String getName() {
-        return name;
-    }
+        public String getName() {
+            return name;
+        }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+        public void setName(String name) {
+            this.name = name;
+        }
 
-    public int getAge() {
-        return age;
-    }
+        public int getAge() {
+            return age;
+        }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
+        public void setAge(int age) {
+            this.age = age;
+        }
 
-    public void eat() {
-        System.out.println("im eating");
+        public void eat() {
+            System.out.println("im eating");
 
     }
 
